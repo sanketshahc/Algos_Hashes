@@ -1,8 +1,9 @@
 import hashtable_chaining as hc
 import hashtable_linear_probing as hcl
+from helpers import *
 
 table = hc.HashTable()
-data = hc.dummy_dat()
+data = dummy_dat()
 vocab = list()
 
 for i, x in enumerate(data):
@@ -19,7 +20,7 @@ for each in vocab:
 
 
 table = hcl.HashTable()
-data = hc.dummy_dat()
+data = dummy_dat()
 vocab = list()
 for i, x in enumerate(data):
     if x not in vocab:
